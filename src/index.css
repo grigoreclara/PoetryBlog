@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+body {
+  background-color: #ededed;
+  padding: 20px;
+  margin: 0;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 4em;
+}
+h2,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+ul,
+li {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.12rem;
+}
+.header {
+  float: left;
+  margin-left: 5em;
+  position: fixed;
+  top: 8em;
+}
+.nav {
+  position: fixed;
+  width: 20%;
+  float: left;
+  top: 8.2em;
+  border-radius: 0.5em;
+  background-color: #c2e4ff;
+}
+.link {
+  text-decoration: none;
+}
+.menu {
+  position: fixed;
+  width: 100%;
+}
+
+.content {
+  float: right;
+  background-color: #c2e4ff;
+  padding: 20px;
+  width: 60em;
+  margin-right: 26em;
+  margin-top: 9em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+  
+  
+}
+
+@media only screen and (min-width: 900px) {
+  .content {
+ float: right;
+  background-color: #c2e4ff;
+  padding: 20px;
+  width: 60em;
+  
+  margin-top: 9em;
+  border-radius: 1em;
+ 
+   margin-right: 8em;
+ margin-bottom: 2em;
+  
+
+  
+}
+
+}
+
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.btn:hover {
+  background: #0099ff;
+}
+.success {
+  background-color: green;
+}
+.info {
+  color: dodgerblue;
+}
+.warning {
+  color: orange;
+}
+.danger {
+  color: red;
+}
+.default {
+  color: black;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.title {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #ededed;
+}
+.poezie {
+  margin-top: 1em;
+  padding: 5px;
+  background-color: #75c2ff;
+  border-radius: 2em 0.3em 0.3em 2em;
+  padding-bottom: 1em;
+  width: 40%;
+  display: inline-block;
+  margin-left: 3em;
+  margin-right: 2em;
+  max-height: 25em;
+  overflow-y: scroll;
+}
+.poezie::-webkit-scrollbar {
+  width: 12px;
+  left: 20em;
+}
+.poezie::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.poezie::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.ReadMore {
+  left: 80%;
+}
+.comments {
+  margin-top: 5em;
+}
+.autor {
+  font-family: "Dancing Script", cursive;
+  font-size: 2em;
+}
+.versuri {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.Username {
+     left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.Password {
+    left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.LogIn {
+    left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.Register {
+    left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.Nume {
+  left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.Prenume {
+  left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.Email {
+ left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.UsernameRegister {
+  left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.passwordRegister {
+  left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.LogInRegister {
+ left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.RegisterRegister {
+ left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.email {
+  margin-top: 1em;
+  margin-left: 20em;
+  width: 20em;
+  justify-content: space-evenly;
+  display: inline-flex;
+}
+.phone {
+  margin-top: 1em;
+  margin-left: 18em;
+  width: 20em;
+  justify-content: space-evenly;
+  display: inline-flex;
+}
+.home {
+  margin-top: 1em;
+  margin-left: 22em;
+  width: 20em;
+  justify-content: space-evenly;
+  display: inline-flex;
+}
+.LogOut {
+  position: absolute;
+  top: 2em;
+  float: left;
+  left: 3em;
+}
