@@ -106,7 +106,7 @@ class Main extends Component {
               className="LogIn"
               onClick={() => {
                 var users = JSON.parse(window.localStorage.getItem("Users"));
-                for (var user of users) {
+                for (var user of users.users) {
                   if (this.state.logInUsername === user.username) {
                     if (this.state.logInPassword === user.password) {
                       this.setState({
@@ -265,5 +265,3 @@ class Main extends Component {
 }
 
 export default Main;
-
-
